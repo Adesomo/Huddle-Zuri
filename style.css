@@ -4,6 +4,22 @@
 body {
     margin: 0;
     font-size: 18px;
+    animation-name: color;
+    animation-duration: 5s;
+}
+
+@keyframes color {
+    0% {
+        background-color: aliceblue;
+    }
+
+    50% {
+        background-color: aquamarine;
+    }
+
+    100% {
+        background-color: aqua;
+    }
 }
 
 .head {
@@ -245,6 +261,7 @@ p {
         border-radius: 40px;
         font-size: 18px;
     }
+
     .image {
         padding-left: 20px;
     }
@@ -254,6 +271,7 @@ p {
         flex-direction: column;
         padding-left: 20px;
     }
+
     .location {
         width: 70%;
     }
@@ -265,10 +283,12 @@ p {
     .pad1 {
         padding-left: 0px;
     }
+
     .pad2 {
         padding-left: 90px;
         padding-top: 50px;
     }
+
     .footright {
         text-align: center;
     }
