@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-size: 18px;
+}
+
+.head {
+    background-image: url(bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    padding: 40px 40px 50px 40px;
+}
+
+.logohead {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.free {
+    margin-left: auto;
+    border: solid whitesmoke;
+    border-radius: 25px;
+    padding: 5px 40px 5px 40px;
+    background-color: white;
+    color: hsl(192, 100%, 9%);
+    box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.logohead2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.lgflex1 {
+    display: block;
+    padding-top: 50px;
+}
+
+.mockimage {
+    margin-left: auto;
+    object-fit: contain;
+    width: 50%;
+    height: auto;
+}
+
+.get {
+    padding: 10px 45px 10px 45px;
+    border: solid hsl(322, 100%, 66%);
+    border-radius: 25px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+
+.main {
+    display: block;
+    padding: 150px;
+}
+
+.main1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px 35px 35px 80px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: -2px -2px 3px 3px rgba(0, 0, 0, 0.1);
+
+}
+
+.flowingimage {
+    margin-right: auto;
+    object-fit: contain;
+    width: 50%;
+    height: auto;
+}
+
+h2 {
+    padding-top: 95px;
+    color: hsl(192, 100%, 9%);
+}
+
+p {
+    color: hsl(208, 11%, 55%);
+}
+
+.foot {
+    background-color: hsl(192, 100%, 9%);
+    margin-top: 130px;
+    padding: 170px 70px 30px 100px;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 40px 0 0;
+}
+.pad {
+    padding-left: 100px;
+}
+.footright {
+    text-align: right;
+}
