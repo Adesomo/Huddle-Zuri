@@ -244,6 +244,10 @@ p {
         margin-top: 50px;
     }
 
+    .imageorder {
+        order: 2;
+    }
+
     .foot {
         padding: 170px 10px 2px 10px;
         margin-top: 250px;
